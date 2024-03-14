@@ -1,0 +1,33 @@
+.orderDetails{
+  display: flex;
+  justify-content: space-between;
+  padding: 0.3rem;
+  margin: 0 2rem;
+}
+
+h3{
+  margin: 0 2rem;
+
+}
+
+.left , .right{
+  margin: 0.5rem;
+}
+
+.pending {
+  background-color: tomato;
+  padding: 0.4rem 0.9rem;
+  border-radius: 20px;
+  color: white;
+}
+
+.products-details img{
+  height: 60px;
+  width: 60px;
+  object-fit: cover;
+}
+
+.table-head-white {
+  background-color: #f3f3f3 !important;
+  color: #000000 !important;
+}

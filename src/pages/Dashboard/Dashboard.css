@@ -1,0 +1,54 @@
+/* .container{
+  display: flex;
+} */
+
+.dashboard-left{
+flex: 1;
+}
+.left-cards{
+  display: flex;
+}
+
+.dashboard-contain{
+  padding-left: 2rem;
+  padding-top: 2rem;
+  color: var(--txt-color);
+}
+.cointainer{
+  display: flex;
+  /* flex-direction: column; */
+}
+
+.dashboard-right{
+  margin-left: 2rem;
+  display: flex;
+  flex: 1;
+  margin-top: 0.5rem;
+
+}
+
+.lCards{
+  margin: 0.5rem;
+
+}
+
+.RCards{
+  /* padding: 30px; */
+  /* margin-bottom: 30px; */
+  width: 90%;
+  background-color: var(--main-bg);
+  box-shadow: var(--box-shadow);
+  border-radius: var(--border-radius);
+  height: 100%;
+}
+
+
+.latestOrders{
+  width: 90%;
+  background-color: var(--main-bg);
+  box-shadow: var(--box-shadow);
+  border-radius: var(--border-radius);
+  height: 48%;
+  margin: 40px;
+
+}

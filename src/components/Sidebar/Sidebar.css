@@ -1,0 +1,103 @@
+nav{
+  width: var(--sidebar-width);
+  height: 100vh;
+  position: fixed;
+  left: 0;
+  top: 0;
+  background-color: var(--main-bg);
+  box-shadow: var(--box-shadow);
+  /* position: relative; */
+  /* margin: 0; */
+}
+
+.logo{
+  /* height: 5rem; */
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  font-size: 1.8rem;
+  cursor: pointer;
+  margin-top: 1rem;
+}
+
+.firstLogo{
+  color: var(--main-color);
+  font-size: 2.2rem;
+}
+
+.active{
+  background-image: linear-gradient(
+    to right,
+    var(--main-color),
+    var(--second-color)
+  );
+  color: var(--txt-white) !important;
+  border-radius:var(--border-radius);
+}
+
+ul{
+  display: flex;
+  align-items: center;
+  flex-direction: column;
+}
+
+
+.sidebar-item{
+  padding: 0.1rem 0;
+  display: flex;
+  align-items: center;
+  font-weight: 400;
+  transition: color 0.3 ease 0s;
+}
+
+.sidebar-item:hover a{
+  color: var(--main-color);
+}
+
+.sidebar-item a{
+  padding: 0.4rem 1rem;
+  width: 100%;
+}
+
+.menu-list{
+  text-align: left;
+  padding: 0 0.3rem;
+}
+
+.icon{
+  padding: 0 0.5rem;
+}
+
+/* .btn{
+  width: 90%;
+} */
+
+.user{
+  width: 2rem;
+  height: 1.8rem;
+  overflow: hidden;
+  /* background-size: cover; */
+  border-radius: 50%;
+}
+
+.user img {
+  width: 100%;
+}
+
+.username{
+  color: black;
+  margin-left: 0.3rem;
+  font-size: 1rem;
+}
+.userInfo{
+  display: flex;
+  align-items: center;
+  width: 100%;
+  cursor: pointer;
+  /* transform: translateY(15rem); */
+  margin-left: 1.5rem;
+}
+
+.hr{
+  color: rgb(145, 142, 142);
+}
